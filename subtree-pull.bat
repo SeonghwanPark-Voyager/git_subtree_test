@@ -8,6 +8,6 @@ set BRANCH=main
 set PREFIX=test
 
 echo [Git Subtree Pull] %REPO_URL% -> %PREFIX%
-git subtree pull --prefix=%PREFIX% %REPO_URL% %BRANCH% --squash
+git subtree pull --prefix=%PREFIX% %REPO_URL% %BRANCH%
 
 pause
